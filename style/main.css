@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #171D00;
+  color: #BFBFBF;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -90,10 +90,12 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "Score";
+  background-color: #0000000;}
 
 .best-container:after {
-  content: "Best"; }
+  content: "Best";
+   background-color: #000000;}
 
 p {
   margin-top: 0;
@@ -149,7 +151,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #ECFDFD;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -314,6 +316,7 @@ hr {
   transform: translate(363px, 363px); }
 
 .tile {
+  color:transparent;
   position: absolute;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
@@ -329,34 +332,36 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: url("../images/kimson11.jpg");
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    background: url("../images/ibrahim.jpg");
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: url("../images/justice.jpg");
+    background-size: cover; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: url("../images/massa.jp");
+    background-size: cover;}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background: url("../images/yabor.jpg");
+    background-size: cover;}
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: url("../images/kassim.jpg");
+    background-size: cover;}
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
+    background: url("../images/abdulkime.jpg");
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
+    background: url("../images/vinay.jpg");
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -519,7 +524,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #000000;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -552,10 +557,11 @@ hr {
   .score-container, .best-container {
     margin-top: 0;
     padding: 15px 10px;
-    min-width: 40px; }
+    min-width: 40px;
 
   .heading {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    background-color: #000000; }
 
   .game-intro {
     width: 55%;
